@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+	background-color: #BEBEBE;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -80px;
+	width: 100%;
+	position: fixed;
+	background-color: #BEBEBE;
+}
+
+#header-img {
+	width: 20%;
+	height: 15%;
+	display: block;
+	padding: 0px 10px;
+}
+
+.nav-link {
+	color: inherit;
+	text-decoration: none;
+	padding: 0px 20px;
+	margin-top: 10px;
+}
+
+#body-text {
+	margin-top: 80px;
+	text-align: center;
+}
+
+#nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#email {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	padding: 5px;
+}
+
+#submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 150px;
+	background-color: #FFDB58;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#flame{
+	color: #FF8400;
+	display: inline-block;
+	text-align: left;
+	margin-left: 450px;
+	margin-top: 75px;
+	float: left;
+}
+
+#truck {
+	color: #FF8400;
+	display: inline-block;
+	margin-left: 450px;
+	margin-top: 40px;
+	float: left;
+}
+
+#battery {
+	color: #FF8400;
+	display: inline-block;
+	margin-left: 450px;
+	margin-top: 40px;
+	float: left;
+}
+
+#flame-title{
+	display: flex;
+	flex-direction: column;
+	font-size: 23px;
+	padding-left: 100px;
+	font-weight: bold;
+	margin-top: 75px;
+}
+
+#flame-text {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-right: 460px;
+}
+
+#truck-title {
+	display: flex;
+	flex-direction: column;
+	font-size: 23px;
+	font-weight:bold;
+	padding-left: 80px;
+	margin-top: 60px;
+}
+
+#truck-text {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-right: 460px;
+}
+
+#battery-title {
+	display: flex;
+	flex-direction: column;
+	font-size: 23px;
+	font-weight: bold;
+	padding-left: 80px;
+	margin-top: 65px;	
+}
+
+#battery-text {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-right: 460px;
+}
+
+#video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+  margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.flex-child {
+	align-content: space-between;
+	border: 1px solid #000;
+	border-bottom: none;
+	text-align: center;
+	width: 32%;
+	background-color: #9C9C9C;
+}
+
+.flex-subtitle {
+	text-align: center;
+	font-weight: bold;
+	width: 32%;
+	border: 1px solid #000;
+	align-content: space-between;
+	border-top: none;
+	border-bottom: none;
+}
+
+.flex-text{
+	text-align: center;
+	width: 32%;
+	border: 1px solid #000;
+	border-top: none;
+	padding-bottom: 20px;
+}
+
+.flex-footer {
+	text-align: right;
+	width: 94%;
+	padding: 30px;
+	padding-bottom: 5px;
+	background-color: #9C9C9C;
+	margin-top: 40px;
+	line-height: 15px;
+}
+
+@media (max-width: 600px) {
+	body *{
+		width: 100%;
+	}
+	header *{
+		width: 100%;
+	}
+	#submit *{
+		width: 25%;
+	}
+}
